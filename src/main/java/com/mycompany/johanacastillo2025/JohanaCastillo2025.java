@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.johanacastillo2025;
 
-/**
- *
- * @author KATY
- */
+import calculadora.Calculadora;
+
 public class JohanaCastillo2025 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Calculadora calculadora = new Calculadora();
+        calculadora.setDato1(10);
+        calculadora.setDato2(5);
+        
     }
 }
